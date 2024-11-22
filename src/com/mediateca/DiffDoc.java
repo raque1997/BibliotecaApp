@@ -1,8 +1,9 @@
 package com.mediateca;
 
+//update
 
 public class DiffDoc {
-    // Atributos de ejemplo
+    // Atributos relevantes de diffdoc
     private String codigo;
     private String titulo;
     private String tipoDocumento; // Tipo: mapa, manual, folleto, etc.
