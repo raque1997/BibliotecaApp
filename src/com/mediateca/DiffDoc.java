@@ -1,8 +1,6 @@
 package com.mediateca;
 
-/**
- * Clase DiffDoc representa documentos diferentes en la mediateca.
- */
+
 public class DiffDoc {
     // Atributos de ejemplo
     private String codigo;
@@ -26,7 +24,6 @@ public class DiffDoc {
         this.unidadesDisponibles = unidadesDisponibles;
     }
 
-    // Getters y Setters
     public String getCodigo() {
         return codigo;
     }
@@ -75,7 +72,7 @@ public class DiffDoc {
         this.unidadesDisponibles = unidadesDisponibles;
     }
 
-    // Método para mostrar información del documento
+    // Metodo para mostrar información del documento
     @Override
     public String toString() {
         return "DiffDoc{" +
